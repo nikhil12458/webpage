@@ -140,5 +140,5 @@
     position: absolute;
     bottom: 18px;
     left: 25px;
-    resize: both;
+    gap: 1.0625rem;
 }
