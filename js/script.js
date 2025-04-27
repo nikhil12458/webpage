@@ -48,7 +48,4 @@ window.onload = function() {
       <img src="../svg/instagram.svg" alt="instagram">
     </a>
   `
-  
-  
-    
   };
