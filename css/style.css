@@ -285,13 +285,6 @@
     left: 0;
 }
 
-.software-icons{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2.9375rem;
-    margin-top: 4.75rem;
-}
 
 .skills-heading{
     color: white;
@@ -303,4 +296,16 @@
     font-size: 46px;
     font-weight: 600;
     letter-spacing: 1.3125rem;
+}
+
+.software-icons{
+    width: 94px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.9375rem;
+    left: 2.5625rem;
+    margin-top: 4.75rem;
 }
