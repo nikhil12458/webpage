@@ -130,7 +130,6 @@
     padding: 4px 0;
     font-size: 28px;
     width: 215px;
-    ;
     margin-top: 2.875rem;
 }
 
@@ -222,7 +221,7 @@
 
 .loop1{
     background: url(/img/Vector15.png);
-    top: 281px;
+    top: 523px;
     right: 256px;
     background-position: center;
     background-repeat: no-repeat;
