@@ -14,7 +14,7 @@ window.onload = function() {
     `;
 
 
-  const linkedinProfile = `https://www.linkedin.com/in/YOUR_USERNAME/`;
+  const linkedinProfile = `https://www.linkedin.com/in/namantheeditor/`;
 
   document.getElementById("linkedin-link").innerHTML = `
     <a href="${linkedinProfile}" target="_blank">
