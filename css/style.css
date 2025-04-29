@@ -476,3 +476,27 @@
     letter-spacing: 0.07rem;
     font-weight: 900;
 }
+
+.skill-circle-all{
+    height: 145px;
+    width: 150px;
+}
+
+.skill-circle-1{
+    background: url(../svg/skill-circle-1.svg) no-repeat;
+}
+.skill-circle-2{
+    background: url(../svg/skill-circle-2.svg) no-repeat;
+}
+.skill-circle-3{
+    background: url(../svg/skill-circle-3.svg) no-repeat;
+}
+.skill-circle-4{
+    background: url(../svg/skill-circle-4.svg) no-repeat;
+}
+.skill-circle-5{
+    background: url(../svg/skill-circle-5.svg) no-repeat;
+}
+.skill-circle-6{
+    background: url(../svg/skill-circle-6.svg) no-repeat;
+}
