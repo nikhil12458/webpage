@@ -307,5 +307,41 @@
     justify-content: center;
     gap: 2.9375rem;
     left: 2.5625rem;
-    margin-top: 4.75rem;
+    margin-top: 5.75rem;
+    color: white;
+    text-align: right;
+}
+
+.software-names{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 9.125rem;
+    gap: 6.1875rem;
+    top: 11.6875rem;
+    color: white;
+}
+
+.software-font{
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+
+.davinci-resolve-text{
+    width: 109px;
+    margin-top: -18px;
+}
+
+.skill-bars{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 0;
+}
+
+.line-1{
+    background: url(../svg/line01.svg) no-repeat;
+    height: 24px;
+    width: 323px;
 }

@@ -1,141 +1,25 @@
-body {
-    margin: 0;
-    padding: 0;
-    background: #0f0f0f;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-  }
-  
-  .skills-page {
-    padding: 50px 20px;
-    max-width: 1200px;
-    margin: auto;
-  }
-  
-  .header h2 {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 40px;
-    letter-spacing: 2px;
-    color: #a855f7;
-  }
-  
-  .content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-  }
-  
-  .left-side, .right-side {
-    flex: 1;
-    min-width: 320px;
-  }
-  
-  .skills-group .skill, .languages-group .language {
-    margin-bottom: 25px;
-  }
-  
-  .skill, .language {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-  }
-  
-  .icon {
-    width: 45px;
-    height: 45px;
-    background: #fff;
-    border-radius: 10px;
-  }
-  
-  .skill-info p, .language p {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 500;
-  }
-  
-  .progress {
-    flex: 1;
-    height: 8px;
-    background: #333;
-    border-radius: 5px;
-    overflow: hidden;
-    margin-left: 15px;
-  }
-  
-  .progress-fill {
-    height: 100%;
-    background: #a855f7;
-    width: 0;
-    animation: fill 2s forwards;
-  }
-  
-  @keyframes fill {
-    from { width: 0; }
-  }
-  
-  .languages-group {
-    margin-top: 40px;
-  }
-  
-  .languages-group h3, .right-side h3 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #a855f7;
-    display: inline-block;
-    padding-bottom: 5px;
-  }
-  
-  .skills-circles {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-top: 30px;
-  }
-  
-  .circle-box {
-    text-align: center;
-  }
-  
-  .circle {
-    width: 100px;
-    height: 100px;
-    border: 8px solid #a855f7;
-    border-top-color: #fff;
-    border-radius: 50%;
-    position: relative;
-    margin: 0 auto 10px;
-  }
-  
-  .circle span {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-  
-  .circle-box p {
-    font-size: 16px;
-    margin: 0;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-    .content {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .skills-circles {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .skills-circles {
-      grid-template-columns: 1fr;
-    }
-  }
-  
+.software-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 2.9375rem;
+  margin-top: 5.75rem;
+  padding-left: 2.5625rem;
+}
+
+.software-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem; /* space between icon and text */
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.software-item img {
+  width: 56px;  /* adjust icon size as needed */
+  height: 56px;
+}
+
+body{
+  background-color: black;
+}
