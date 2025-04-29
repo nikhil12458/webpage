@@ -276,6 +276,24 @@
     position: absolute;
 }
 
+#cursor{
+    height: 7.5vw;
+    width: 7.5vw;
+    background-color: #8f00ffa6;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -0%;
+    left: -0%;
+}
+
+#cursor h5{
+    font-size: 1.2vw;
+}
+
 .black-film-2 {
     background-color: rgba(0, 0, 0, 0.79);
     width: 100%;
@@ -290,12 +308,15 @@
     color: white;
     text-align: center;
     margin-top: 8px;
+    z-index: 3;
 }
 
 .skills-heading p {
     font-size: 46px;
     font-weight: 600;
     letter-spacing: 1.3125rem;
+    position: relative;
+    z-index: 3;
 }
 
 .software-icons {
@@ -310,6 +331,7 @@
     margin-top: 5.75rem;
     color: white;
     text-align: right;
+    z-index: 3;
 }
 
 .software-names {
@@ -321,6 +343,7 @@
     gap: 6.1875rem;
     top: 11.6875rem;
     color: white;
+    z-index: 3;
 }
 
 .software-font {
@@ -340,6 +363,7 @@
     top: 11.75rem;
     left: 22.125rem;
     gap: 6.875rem;
+    z-index: 3;
 }
 
 .line {
