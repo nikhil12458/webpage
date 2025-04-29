@@ -51,31 +51,53 @@ window.onload = function () {
 };
 
 
-function cursorEffect(){
+function cursorEffect() {
   var skillsSectionContent = document.querySelector(".skills-section");
-var cursor = document.querySelector("#cursor");
+  var cursor = document.querySelector("#cursor");
 
-skillsSectionContent.addEventListener("mousemove", function(dets){
-  gsap.to(cursor,{
-    x:dets.x,
-    y:dets.y
+  skillsSectionContent.addEventListener("mousemove", function (dets) {
+    gsap.to(cursor, {
+      x: dets.x,
+      y: dets.y
+    })
+    cursor.style.transform = 'translate(-50%, -50%)';
   })
-  cursor.style.transform = 'translate(-50%, -50%)';
-})
 
-skillsSectionContent.addEventListener("mouseenter",function(){
-  gsap.to(cursor,{
-    scale:1,
-    opacity:1
+  skillsSectionContent.addEventListener("mouseenter", function () {
+    gsap.to(cursor, {
+      scale: 1,
+      opacity: 1
+    })
   })
-})
 
-skillsSectionContent.addEventListener("mouseleave",function(){
-  gsap.to(cursor,{
-    scale:0,
-    opacity:0
+  skillsSectionContent.addEventListener("mouseleave", function () {
+    gsap.to(cursor, {
+      scale: 0,
+      opacity: 0
+    })
   })
-})
 }
 
 cursorEffect();
+
+function scrollToSkillsPage() {
+  var skillsBtn = document.getElementById("skillsBtn");
+  var skillsSection = document.getElementById("skills");
+
+  skillsBtn.addEventListener("click", () => {
+    skillsSection.scrollIntoView({ behavior: "smooth" });
+  });
+}
+
+scrollToSkillsPage();
+
+function scrollToHomePage() {
+  var homeBtn = document.getElementById("homeBtn");
+  var homeSection = document.getElementById("home");
+
+  homeBtn.addEventListener("click", () => {
+    homeSection.scrollIntoView({ behavior: "smooth" });
+  });
+}
+
+scrollToHomePage();
