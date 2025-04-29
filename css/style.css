@@ -193,7 +193,7 @@
     transform: translate(-50%, -50%);
 }
 
-.cutting-guide-w{
+.cutting-guide-w {
     background: url(/img/cutingguideW.png) no-repeat;
     position: absolute;
     width: 72%;
@@ -202,7 +202,7 @@
     top: -98px;
 }
 
-.glowScissor{
+.glowScissor {
     background: url(/img/glowScissor.png) no-repeat;
     position: absolute;
     width: 74px;
@@ -212,14 +212,14 @@
     right: 153px;
 }
 
-.loop{
+.loop {
     position: absolute;
     width: 65px;
     height: 65px;
     z-index: 0;
 }
 
-.loop1{
+.loop1 {
     background: url(/img/Vector15.png);
     top: 523px;
     right: 256px;
@@ -229,13 +229,13 @@
     overflow: hidden;
 }
 
-.loop2{
+.loop2 {
     background: url(/img/Vector16.png) no-repeat;
     top: 156px;
     left: 234px;
 }
 
-.loop3{
+.loop3 {
     background: url(/img/Vector17.png);
     top: 402px;
     left: -69px;
@@ -246,7 +246,7 @@
     position: absolute;
 }
 
-.loop4{
+.loop4 {
     background: url(/img/Vector18.png) no-repeat;
     top: 330px;
     right: -10px;
@@ -257,7 +257,7 @@
     position: absolute;
 }
 
-.scissor{
+.scissor {
     background: url(/img/scissor.png) no-repeat;
     top: 410px;
     right: 65px;
@@ -268,7 +268,7 @@
     position: absolute;
 }
 
-.skills-section{
+.skills-section {
     background: url(../svg/background.svg) no-repeat center center;
     background-size: cover;
     width: 100%;
@@ -276,7 +276,7 @@
     position: absolute;
 }
 
-.black-film-2{
+.black-film-2 {
     background-color: rgba(0, 0, 0, 0.79);
     width: 100%;
     height: 120vh;
@@ -286,19 +286,19 @@
 }
 
 
-.skills-heading{
+.skills-heading {
     color: white;
     text-align: center;
     margin-top: 8px;
 }
 
-.skills-heading p{
+.skills-heading p {
     font-size: 46px;
     font-weight: 600;
     letter-spacing: 1.3125rem;
 }
 
-.software-icons{
+.software-icons {
     width: 94px;
     display: flex;
     position: relative;
@@ -312,7 +312,7 @@
     text-align: right;
 }
 
-.software-names{
+.software-names {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -323,25 +323,46 @@
     color: white;
 }
 
-.software-font{
+.software-font {
     font-size: 1.75rem;
     font-weight: 900;
 }
 
-.davinci-resolve-text{
+.davinci-resolve-text {
     width: 109px;
     margin-top: -18px;
 }
 
-.skill-bars{
+.skill-bars {
     display: flex;
     position: absolute;
     flex-direction: column;
-    top: 0;
+    top: 11.75rem;
+    left: 22.125rem;
+    gap: 6.875rem;
 }
 
-.line-1{
-    background: url(../svg/line01.svg) no-repeat;
+.line {
     height: 24px;
     width: 323px;
+}
+
+.line-1 {
+    background: url(../svg/line01.svg) no-repeat;
+}
+
+.line-2 {
+    background: url(../svg/line02.svg) no-repeat;
+}
+
+.line-3 {
+    background: url(../svg/line03.svg) no-repeat;
+}
+
+.line-4 {
+    background: url(../svg/line04.svg) no-repeat;
+}
+
+.line-5 {
+    background: url(../svg/line05.svg) no-repeat;
 }
