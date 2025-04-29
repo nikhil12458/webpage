@@ -460,3 +460,19 @@
     right: 40.625rem;
     z-index: 3;
 }
+
+.skill-stats{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 3;
+    top: 24.0625rem;
+    right: 24.625rem;
+}
+
+.stats-heading{
+    color: white;
+    font-size: 1.75rem;
+    letter-spacing: 0.07rem;
+    font-weight: 900;
+}

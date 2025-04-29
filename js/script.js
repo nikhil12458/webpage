@@ -78,8 +78,6 @@ function cursorEffect() {
   })
 }
 
-cursorEffect();
-
 function scrollToSkillsPage() {
   var skillsBtn = document.getElementById("skillsBtn");
   var skillsSection = document.getElementById("skills");
@@ -100,4 +98,5 @@ function scrollToHomePage() {
   });
 }
 
+cursorEffect();
 scrollToHomePage();
