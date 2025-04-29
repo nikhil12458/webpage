@@ -23,6 +23,7 @@
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
+    z-index: 4;
 }
 
 .black-film {
@@ -292,6 +293,7 @@
 
 #cursor h5{
     font-size: 1.2vw;
+    cursor: default;
 }
 
 .black-film-2 {
@@ -389,4 +391,61 @@
 
 .line-5 {
     background: url(../svg/line05.svg) no-repeat;
+}
+
+.vertical-line{
+    width: 2px;
+    height: 8.5rem;
+    background-color: white;
+    position: absolute;
+    top: 11.0625rem;
+    right: 40.625rem;
+    z-index: 3;
+}
+
+.languages-ability{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 11.0625rem;
+    right: 27.625rem;
+    z-index: 3;
+    color: white;
+    gap: 13px;
+}
+
+.language-heading{
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+}
+
+.english{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.12rem;
+}
+
+.hindi{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.12rem;
+}
+
+.language-skill-bars{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    gap: 1.7rem;
+    z-index: 3;
+    top: 14.3rem;
+    right: 8.625rem;
+}
+
+.skill-bar-1{
+    background: url(../svg/line06.svg) no-repeat;
+}
+
+.skill-bar-2{
+    background: url(../svg/line07.svg) no-repeat;
 }
