@@ -278,7 +278,7 @@
     position: absolute;
 }
 
-#cursor{
+#cursor {
     height: 7.5vw;
     width: 7.5vw;
     background-color: #8f00ffa6;
@@ -292,7 +292,7 @@
     left: -0%;
 }
 
-#cursor h5{
+#cursor h5 {
     font-size: 1.2vw;
     cursor: default;
 }
@@ -394,7 +394,7 @@
     background: url(../svg/line05.svg) no-repeat;
 }
 
-.vertical-line{
+.vertical-line {
     width: 2px;
     height: 8.5rem;
     background-color: white;
@@ -404,7 +404,7 @@
     z-index: 3;
 }
 
-.languages-ability{
+.languages-ability {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -415,25 +415,25 @@
     gap: 13px;
 }
 
-.language-heading{
+.language-heading {
     font-size: 28px;
     font-weight: 900;
     letter-spacing: 0.2rem;
 }
 
-.english{
+.english {
     font-size: 28px;
     font-weight: 600;
     letter-spacing: 0.12rem;
 }
 
-.hindi{
+.hindi {
     font-size: 28px;
     font-weight: 600;
     letter-spacing: 0.12rem;
 }
 
-.language-skill-bars{
+.language-skill-bars {
     display: flex;
     position: absolute;
     flex-direction: column;
@@ -443,60 +443,75 @@
     right: 8.625rem;
 }
 
-.skill-bar-1{
+.skill-bar-1 {
     background: url(../svg/line06.svg) no-repeat;
 }
 
-.skill-bar-2{
+.skill-bar-2 {
     background: url(../svg/line07.svg) no-repeat;
 }
 
-.vertical-line-2{
+.vertical-line-2 {
     width: 2px;
-    height: 26.5rem;
+    height: 30.5rem;
     background-color: white;
     position: absolute;
-    top: 24.0625rem;
+    top: 23.0625rem;
     right: 40.625rem;
     z-index: 3;
 }
 
-.skill-stats{
+.skill-stats {
     display: flex;
     flex-direction: column;
     position: absolute;
     z-index: 3;
-    top: 24.0625rem;
-    right: 24.625rem;
+    top: 23.0625rem;
+    right: 2.625rem;
+    gap: 14px;
 }
 
-.stats-heading{
+.stats-heading {
     color: white;
     font-size: 1.75rem;
     letter-spacing: 0.07rem;
     font-weight: 900;
 }
 
-.skill-circle-all{
-    height: 145px;
+.skill-circle-all {
+    height: 209px;
     width: 150px;
+    margin-right: 2.5625rem;
 }
 
-.skill-circle-1{
+.skill-all-circles-1 {
+    display: flex;
+}
+
+.skill-all-circles-2 {
+    display: flex;
+}
+
+.skill-circle-1 {
     background: url(../svg/skill-circle-1.svg) no-repeat;
 }
-.skill-circle-2{
+
+.skill-circle-2 {
     background: url(../svg/skill-circle-2.svg) no-repeat;
 }
-.skill-circle-3{
+
+.skill-circle-3 {
     background: url(../svg/skill-circle-3.svg) no-repeat;
 }
-.skill-circle-4{
+
+.skill-circle-4 {
     background: url(../svg/skill-circle-4.svg) no-repeat;
 }
-.skill-circle-5{
+
+.skill-circle-5 {
     background: url(../svg/skill-circle-5.svg) no-repeat;
 }
-.skill-circle-6{
+
+.skill-circle-6 {
     background: url(../svg/skill-circle-6.svg) no-repeat;
 }
