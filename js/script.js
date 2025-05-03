@@ -179,7 +179,7 @@ function scrollToPortfolioPage() {
       // Add 'active' to the clicked item
       this.classList.add('active');
   
-      // Load corresponding images
+      // Load corresponding images  // dosen't required at this time
       // const type = this.textContent.toLowerCase().replace(/\s+/g, '');
       // loadImages(type);
     });
