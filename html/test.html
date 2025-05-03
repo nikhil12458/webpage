@@ -1,33 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="software-icons">
-    <div class="software-item">
-      <img src="../svg/photoshop.svg" alt="Photoshop">
-      <p>Photoshop</p>
+
+  <header>
+    <h1><span>PORTFOLIO</span></h1>
+    <p>Latest Work</p>
+  </header>
+
+  <nav class="categories">
+    <span class="active">Logo</span>
+    <span>Thumbnail</span>
+    <span>Videos</span>
+    <span>Graphic designs</span>
+  </nav>
+
+  <section class="portfolio-grid">
+    <div class="portfolio-item">
+      <img src="images/image1.jpg" alt="Logo 1" />
+      <div class="client-details">
+        <p><strong>CLIENT NAME</strong></p>
+        <p>BRAND : XYZ</p>
+      </div>
     </div>
-    <div class="software-item">
-      <img src="../svg/afterEffects.svg" alt="After Effects">
-      <p>After effects</p>
+
+    <div class="portfolio-item">
+      <img src="images/image2.jpg" alt="Logo 2" />
+      <div class="client-details">
+        <p><strong>CLIENT NAME</strong></p>
+        <p>BRAND : XYZ</p>
+      </div>
     </div>
-    <div class="software-item">
-      <img src="../svg/premierePro.svg" alt="Premiere Pro">
-      <p>Premiere pro</p>
+
+    <div class="portfolio-item">
+      <img src="images/image3.jpg" alt="Design 1" />
     </div>
-    <div class="software-item">
-      <img src="../svg/illustrator.svg" alt="Illustrator">
-      <p>Illustrator</p>
+
+    <div class="portfolio-item">
+      <img src="images/image4.jpg" alt="Design 2" />
     </div>
-    <div class="software-item">
-      <img src="../svg/davinci.svg" alt="DaVinci Resolve">
-      <p>DaVinci Resolve</p>
-    </div>
-  </div>
-  
+  </section>
+
 </body>
 </html>

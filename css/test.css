@@ -1,25 +1,83 @@
-.software-icons {
-  display: flex;
-  flex-direction: column;
-  gap: 2.9375rem;
-  margin-top: 5.75rem;
-  padding-left: 2.5625rem;
-}
-
-.software-item {
-  display: flex;
-  align-items: center;
-  gap: 1.25rem; /* space between icon and text */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #000;
   color: white;
-  font-size: 24px;
-  font-weight: 900;
 }
 
-.software-item img {
-  width: 56px;  /* adjust icon size as needed */
-  height: 56px;
+header {
+  text-align: center;
+  margin-top: 2rem;
 }
 
-body{
-  background-color: black;
+header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+header h1 span {
+  text-decoration: line-through;
+  color: #FFC107;
+}
+
+header p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+  font-size: 1.1rem;
+}
+
+.categories span {
+  cursor: pointer;
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid transparent;
+}
+
+.categories span.active {
+  color: orange;
+  border-color: orange;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.portfolio-item {
+  background-color: #222;
+  border-radius: 12px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.client-details {
+  padding: 1rem;
+}
+
+.client-details p {
+  margin: 0.2rem 0;
+}
+
+@media (max-width: 768px) {
+  .categories {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 }
