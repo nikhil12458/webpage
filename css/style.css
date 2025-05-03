@@ -527,7 +527,7 @@
 
 
 .portfolio-section {
-    background: url(../svg/background.svg) no-repeat center center;
+    background: url(../svg/portfolio-bg.svg) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 120vh;
@@ -546,6 +546,7 @@
 }
 
 .portfolio-heading {
+    background: url(../svg/portfolio-text.svg) no-repeat center center;
     position: relative;
     z-index: 3;
     color: white;
@@ -557,6 +558,48 @@
     font-size: 46px;
     font-weight: 600;
     letter-spacing: 1.3125rem;
+}
+
+.portfolio-sub-heading{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0.43rem;
+    color: white;
+    position: relative;
+    z-index: 3;
+    text-align: center;
+}
+
+.portfolio-nav{
+    display: flex;
+    position: relative;
+    left: 6.8125rem;
+    z-index: 5;
+    color: white;
+    width: 35.875rem;
+    top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 1.5625rem;
+}
+
+.portfolio-nav ul li{
+    display: flex;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.portfolio-nav ul li:hover{
+    cursor: pointer;
+    color: #FF8800;
+    text-decoration: underline;
 }
 
 .portfolio-grid {

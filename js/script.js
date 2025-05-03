@@ -98,5 +98,15 @@ function scrollToHomePage() {
   });
 }
 
+function scrollToPortfolioPage() {
+  var portfolioBtn = document.getElementById("portfolioBtn");
+  var portfolioSection = document.getElementById("portfolioPage");
+
+  portfolioBtn.addEventListener("click", () => {
+    portfolioSection.scrollIntoView({ behavior: "smooth" });
+  });
+}
+
 cursorEffect();
 scrollToHomePage();
+scrollToPortfolioPage();
