@@ -134,6 +134,7 @@
     font-size: 28px;
     width: 215px;
     margin-top: 2.875rem;
+    z-index: 3;
 }
 
 .action-btn:hover {
