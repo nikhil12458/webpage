@@ -131,7 +131,7 @@
             <div class="portfolio-sub-heading">
                 <p>Latest Work</p>
             </div>
-            <div class="portfolio-nav">
+            <!-- <div class="portfolio-nav">
                 <ul>
                     <li>Logo</li>
                     <li>Thumbnail</li>
@@ -168,6 +168,22 @@
                     <img src="../img/logo-png/logo-7.png" alt="">
                     <div class="portfolio-title">Nurela</div>
                 </div>
+            </div> -->
+
+
+            <div class="portfolio-nav">
+                <ul>
+                  <li class="active" onclick="loadImages('logos')">Logo</li>
+                  <li onclick="loadImages('thumbnails')">Thumbnail</li>
+                  <li onclick="loadImages('videos')">Videos</li>
+                  <li onclick="loadImages('graphics')">Graphic designs</li>
+                </ul>
+              </div>
+            
+              <!-- Empty grid for dynamic content -->
+              <div class="portfolio-grid" id="portfolioGrid">
+                <!-- Cards will be injected here -->
+              </div>
             </div>
         </div>
 

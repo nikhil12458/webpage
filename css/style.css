@@ -603,6 +603,11 @@
     text-decoration: underline;
 }
 
+.portfolio-nav li.active{
+    color: #FF8800;
+    text-decoration: underline;
+}
+
 .portfolio-grid {
     display: flex;
     flex-wrap: wrap;

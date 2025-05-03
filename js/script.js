@@ -107,6 +107,85 @@ function scrollToPortfolioPage() {
   });
 }
 
+  function loadImages(type) {
+    const portfolioGrid = document.getElementById("portfolioGrid");
+    portfolioGrid.innerHTML = ""; // Clear existing cards
+
+    // Predefined image sets (customize as needed)
+    const logos = [
+      { src: '../img/logo-png/logo-1.png', title: 'Esoft' },
+      { src: '../img/logo-png/logo-2.png', title: 'Mitron' },
+      { src: '../img/logo-png/logo-3.png', title: 'Aloja' },
+      { src: '../img/logo-png/logo-4.png', title: 'Kumar' },
+      { src: '../img/logo-png/logo-5.png', title: 'Super' },
+      { src: '../img/logo-png/logo-6.png', title: 'Insora' },
+      { src: '../img/logo-png/logo-7.png', title: 'Nurela' }
+    ];
+
+    const thumbnails = [
+      { src: 'img/thumbnails/thumb1.jpg', title: 'Thumbnail 1' },
+      { src: 'img/thumbnails/thumb2.jpg', title: 'Thumbnail 2' },
+      { src: 'img/thumbnails/thumb3.jpg', title: 'Thumbnail 3' }
+    ];
+
+    const videos = [
+      { src: 'img/videos/video1-thumbnail.jpg', title: 'Video 1' },
+      { src: 'img/videos/video2-thumbnail.jpg', title: 'Video 2' }
+    ];
+
+    const graphics = [
+      { src: 'img/graphics/design1.jpg', title: 'Design 1' },
+      { src: 'img/graphics/design2.jpg', title: 'Design 2' }
+    ];
+
+    // Select appropriate list
+    let items = [];
+    switch (type) {
+      case 'logos': items = logos; break;
+      case 'thumbnails': items = thumbnails; break;
+      case 'videos': items = videos; break;
+      case 'graphics': items = graphics; break;
+      default: items = []; break;
+    }
+
+    // Create and inject cards
+    items.forEach((item, index) => {
+      const card = document.createElement("div");
+      card.classList.add("portfolio-card");
+
+      const img = document.createElement("img");
+      img.src = item.src;
+      img.alt = item.title;
+
+      const title = document.createElement("div");
+      title.className = "portfolio-title";
+      title.innerText = item.title;
+
+      card.appendChild(img);
+      card.appendChild(title);
+      portfolioGrid.appendChild(card);
+    });
+  }
+
+  // Optionally load logos by default
+  window.onload = () => loadImages('logos');
+
+
+  document.querySelectorAll('.portfolio-nav li').forEach((item) => {
+    item.addEventListener('click', function () {
+      // Remove 'active' class from all nav items
+      document.querySelectorAll('.portfolio-nav li').forEach((li) => li.classList.remove('active'));
+  
+      // Add 'active' to the clicked item
+      this.classList.add('active');
+  
+      // Load corresponding images
+      // const type = this.textContent.toLowerCase().replace(/\s+/g, '');
+      // loadImages(type);
+    });
+  });
+  
+
 cursorEffect();
 scrollToHomePage();
 scrollToPortfolioPage();
