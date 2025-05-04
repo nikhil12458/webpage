@@ -107,6 +107,14 @@ function scrollToPortfolioPage() {
   });
 }
 
+function scrollToHomeLogo(){
+  var logoBtn = document.getElementById("profile-logo");
+  var homeSection = document.getElementById("home");
+  logoBtn.addEventListener("click", () => {
+    homeSection.scrollIntoView({ behavior: "smooth" });
+  });
+}
+
 function loadImages(type) {
   const portfolioGrid = document.getElementById("portfolioGrid");
   portfolioGrid.innerHTML = ""; // Clear existing cards
@@ -188,4 +196,5 @@ document.querySelectorAll('.portfolio-nav li').forEach((item) => {
 
 cursorEffect();
 scrollToHomePage();
+scrollToHomeLogo();
 scrollToPortfolioPage();
