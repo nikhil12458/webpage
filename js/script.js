@@ -107,7 +107,7 @@ function scrollToPortfolioPage() {
   });
 }
 
-function scrollToHomeLogo(){
+function scrollToHomeLogo() {
   var logoBtn = document.getElementById("profile-logo");
   var homeSection = document.getElementById("home");
   logoBtn.addEventListener("click", () => {
@@ -115,7 +115,7 @@ function scrollToHomeLogo(){
   });
 }
 
-function scrollToReviewPage(){
+function scrollToReviewPage() {
   var reviewSection = document.getElementById("scrollToReview");
   var reviewBtn = document.getElementById("reviewBtn");
   reviewBtn.addEventListener("click", () => {
@@ -200,6 +200,80 @@ document.querySelectorAll('.portfolio-nav li').forEach((item) => {
     // loadImages(type);
   });
 });
+
+function loadReviews() {
+  const reviewGrid = document.getElementById("reviewGrid");
+  reviewGrid.innerHTML = ""; // Clear previous cards
+
+  const reviews = [
+    {
+      text: "Absolutely fantastic work! The quality of the video editing exceeded my expectations.",
+      authorName: "Alice Smith",
+      authorImg: "../svg/person-1.svg"
+    },
+    {
+      text: "Delivered on time and perfectly captured my vision.",
+      authorName: "John Doe",
+      authorImg: "../svg/person-2.svg"
+    },
+    {
+      text: "Creative and professional—highly recommended!",
+      authorName: "Priya Patel",
+      authorImg: "../svg/person-3.svg"
+    }
+  ];
+
+  reviews.forEach(review => {
+    // Outer card
+    const card = document.createElement("div");
+    card.className = "review-card";
+
+    // Card content container
+    const content = document.createElement("div");
+    content.className = "review-content";
+
+    // Top row: quote icon + text
+    const textRow = document.createElement("div");
+    textRow.className = "review-text-row";
+
+    const quoteIcon = document.createElement("img");
+    quoteIcon.className = "quote-icon";
+    quoteIcon.src = "../svg/upper-coma.svg";
+    quoteIcon.alt = "quote";
+
+    const paragraph = document.createElement("p");
+    paragraph.textContent = review.text;
+
+    textRow.appendChild(quoteIcon);
+    textRow.appendChild(paragraph);
+
+    // Bottom row: author image + name
+    const author = document.createElement("div");
+    author.className = "review-author";
+
+    const authorImg = document.createElement("img");
+    authorImg.className = "author-img";
+    authorImg.src = review.authorImg;
+    authorImg.alt = review.authorName;
+
+    const authorName = document.createElement("span");
+    authorName.className = "author-name";
+    authorName.textContent = review.authorName;
+
+    author.appendChild(authorImg);
+    author.appendChild(authorName);
+
+    // Combine content
+    content.appendChild(textRow);
+    content.appendChild(author);
+    card.appendChild(content);
+    reviewGrid.appendChild(card);
+  });
+}
+
+// Optional: Call it on page load
+window.onload = loadReviews;
+
 
 scrollToReviewPage();
 cursorEffect();
