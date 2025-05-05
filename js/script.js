@@ -115,6 +115,14 @@ function scrollToHomeLogo(){
   });
 }
 
+function scrollToReviewPage(){
+  var reviewSection = document.getElementById("scrollToReview");
+  var reviewBtn = document.getElementById("reviewBtn");
+  reviewBtn.addEventListener("click", () => {
+    reviewSection.scrollIntoView({ behavior: "smooth" });
+  });
+}
+
 function loadImages(type) {
   const portfolioGrid = document.getElementById("portfolioGrid");
   portfolioGrid.innerHTML = ""; // Clear existing cards
@@ -193,7 +201,7 @@ document.querySelectorAll('.portfolio-nav li').forEach((item) => {
   });
 });
 
-
+scrollToReviewPage();
 cursorEffect();
 scrollToHomePage();
 scrollToHomeLogo();
