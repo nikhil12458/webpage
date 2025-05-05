@@ -668,6 +668,21 @@
     z-index: 3;
 }
 
+.figures{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.figures img{
+    box-sizing: border-box;
+    width: 49vw;
+    height: 45vw;
+}
+
 .review-heading {
     display: flex;
     align-items: center;
@@ -687,8 +702,6 @@
 
 .review-bg-layout {
     position: absolute;
-    width: 100%;
-    height: 100vh;
     display: flex;
 }
 
@@ -699,6 +712,8 @@
     z-index: 1;
     width: 75px;
     height: 75px;
+    top: 6.6875rem;
+    left: 15.9375rem;
 }
 
 .person-2 {
@@ -708,6 +723,8 @@
     z-index: 1;
     width: 75px;
     height: 75px;
+    top: 9.625rem;
+    left: 38.125rem;
 }
 
 .person-3 {
@@ -717,6 +734,8 @@
     z-index: 1;
     width: 75px;
     height: 75px;
+    top: 18.75rem;
+    left: 50.9375rem;
 }
 
 .person-4 {
@@ -726,6 +745,7 @@
     z-index: 1;
     width: 75px;
     height: 75px;
+    top: 27.5rem;
 }
 
 .person-5 {
@@ -753,6 +773,7 @@
     z-index: 1;
     width: 75px;
     height: 75px;
+    left: 5.5rem;
 }
 
 .review-grid {

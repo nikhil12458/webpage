@@ -212,14 +212,44 @@ function loadReviews() {
       authorImg: "../svg/person-1.svg"
     },
     {
-      text: "Delivered on time and perfectly captured my vision.",
-      authorName: "John Doe",
-      authorImg: "../svg/person-2.svg"
+      text: "Absolutely fantastic work! The quality of the video editing exceeded my expectations.",
+      authorName: "Alice Smith",
+      authorImg: "../svg/person-1.svg"
     },
     {
-      text: "Creative and professional—highly recommended!",
-      authorName: "Priya Patel",
-      authorImg: "../svg/person-3.svg"
+      text: "Absolutely fantastic work! The quality of the video editing exceeded my expectations.",
+      authorName: "Alice Smith",
+      authorImg: "../svg/person-1.svg"
+    },
+    {
+      text: "Absolutely fantastic work! The quality of the video editing exceeded my expectations.",
+      authorName: "Alice Smith",
+      authorImg: "../svg/person-1.svg"
+    },
+    {
+      text: "Absolutely fantastic work! The quality of the video editing exceeded my expectations.",
+      authorName: "Alice Smith",
+      authorImg: "../svg/person-1.svg"
+    },
+    {
+      text: "Absolutely fantastic work! The quality of the video editing exceeded my expectations.",
+      authorName: "Alice Smith",
+      authorImg: "../svg/person-1.svg"
+    },
+    {
+      text: "Absolutely fantastic work! The quality of the video editing exceeded my expectations.",
+      authorName: "Alice Smith",
+      authorImg: "../svg/person-1.svg"
+    },
+    {
+      text: "Absolutely fantastic work! The quality of the video editing exceeded my expectations.",
+      authorName: "Alice Smith",
+      authorImg: "../svg/person-1.svg"
+    },
+    {
+      text: "Absolutely fantastic work! The quality of the video editing exceeded my expectations.",
+      authorName: "Alice Smith",
+      authorImg: "../svg/person-1.svg"
     }
   ];
 
