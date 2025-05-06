@@ -302,9 +302,10 @@ function loadReviews() {
 }
 
 // Optional: Call it on page load
-window.onload = loadReviews;
+// window.onload = loadReviews;
 
 
+loadReviews();
 scrollToReviewPage();
 cursorEffect();
 scrollToHomePage();
