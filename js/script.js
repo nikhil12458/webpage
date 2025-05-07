@@ -123,6 +123,15 @@ function scrollToReviewPage() {
   });
 }
 
+function scrollToAbout(){
+  var aboutBtn = document.getElementById("aboutBtn");
+  var aboutPage = document.getElementById("aboutPage");
+
+  aboutBtn.addEventListener("click", () => {
+    aboutPage.scrollIntoView({ behavior: "smooth" });
+  });
+}
+
 function loadImages(type) {
   const portfolioGrid = document.getElementById("portfolioGrid");
   portfolioGrid.innerHTML = ""; // Clear existing cards
@@ -310,4 +319,5 @@ scrollToReviewPage();
 cursorEffect();
 scrollToHomePage();
 scrollToHomeLogo();
+scrollToAbout();
 scrollToPortfolioPage();
