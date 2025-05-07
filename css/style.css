@@ -855,8 +855,7 @@
     z-index: 3;
 }
 
-.about-me-heading{
-    font-size: 46px;
+.about-me-heading {
     font-weight: 700;
     position: relative;
     z-index: 3;
@@ -864,7 +863,59 @@
     text-align: center;
 }
 
-.about-me-heading span{
+.about-me-heading span {
+    font-size: 2.875rem;
+    letter-spacing: 0.6rem;
     position: relative;
     z-index: 3;
+}
+
+.about-character{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    position: absolute;
+    z-index: 3;
+    bottom: -3px;
+}
+
+.about-character img{
+    width: 31%;
+}
+
+.about-bg{
+    background: url(../svg/background-about-page.svg) no-repeat center center;
+    background-size: cover;
+    width: 54%;
+    height: 67%;
+    position: absolute;
+    z-index: 2;
+    right: 7.0625rem;
+    bottom: 1.75rem;
+}
+
+.about-me-sub-heading{
+    position: relative;
+    z-index: 3;
+    color: white;
+    font-weight: 700;
+    font-size: 2.75rem;
+    top: 11.75rem;
+    left: 21.75rem;
+    width: 18.625rem;
+}
+
+.about-me-sub-heading span{
+    letter-spacing: 6px;
+}
+
+.about-me-text{
+    font-size: 38px;
+    position: absolute;
+    z-index: 3;
+    color: #AAAAAA;
+    width: 48%;
+    font-weight: 500;
+    bottom: 16.25rem;
+    left: 24.75rem;
 }
