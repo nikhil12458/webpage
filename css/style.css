@@ -39,7 +39,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px;
+    height: 5rem;
     position: fixed;
     top: 0;
     left: 50%;
@@ -870,7 +870,7 @@
     z-index: 3;
 }
 
-.about-character{
+.about-character {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -879,11 +879,11 @@
     bottom: -3px;
 }
 
-.about-character img{
+.about-character img {
     width: 31%;
 }
 
-.about-bg{
+.about-bg {
     background: url(../svg/background-about-page.svg) no-repeat center center;
     background-size: cover;
     width: 54%;
@@ -894,7 +894,7 @@
     bottom: 1.75rem;
 }
 
-.about-me-sub-heading{
+.about-me-sub-heading {
     position: relative;
     z-index: 3;
     color: white;
@@ -905,11 +905,11 @@
     width: 18.625rem;
 }
 
-.about-me-sub-heading span{
+.about-me-sub-heading span {
     letter-spacing: 6px;
 }
 
-.about-me-text{
+.about-me-text {
     font-size: 38px;
     position: absolute;
     z-index: 3;
@@ -918,4 +918,111 @@
     font-weight: 500;
     bottom: 16.25rem;
     left: 24.75rem;
+}
+
+.question-mark-bg {
+    display: flex;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.question-mark-1 {
+    top: 7.9375rem;
+    position: relative;
+    height: 5rem;
+    rotate: 22deg;
+}
+
+.question-mark-2 {
+    top: 14.375rem;
+    right: 17.6875rem;
+    rotate: -22deg;
+    position: absolute;
+    height: 5rem;
+}
+
+.question-mark-3 {
+    top: 14.375rem;
+    right: 29.6875rem;
+    rotate: -22deg;
+    position: absolute;
+    height: 5rem;
+}
+
+.question-mark-4 {
+    top: 2.25rem;
+    left: 1.3125rem;
+    position: relative;
+    height: 5rem;
+    rotate: 8deg;
+}
+
+.question-mark-5 {
+    top: 7.875rem;
+    left: 5rem;
+    position: relative;
+    height: 5rem;
+    rotate: 8deg;
+}
+
+.question-mark-6 {
+    top: 10rem;
+    right: 23.5625rem;
+    rotate: 18deg;
+    position: absolute;
+    height: 5rem;
+}
+
+.question-mark-7 {
+    top: 5rem;
+    right: 17.6875rem;
+    rotate: -22deg;
+    position: absolute;
+    height: 5rem;
+}
+
+.question-mark-8 {
+    top: 5rem;
+    right: 35.1875rem;
+    rotate: 12deg;
+    position: absolute;
+    height: 112px;
+}
+
+.question-mark-9 {
+    bottom: 1.0625rem;
+    right: 23.5625rem;
+    rotate: 18deg;
+    position: absolute;
+    height: 5rem;
+}
+
+.question-mark-10 {
+    bottom: 2.5rem;
+    right: 14.5625rem;
+    rotate: -22deg;
+    position: absolute;
+    height: 5.625rem;
+}
+
+.about-character-bg-mark {
+    height: auto;
+    object-fit: contain;
+}
+
+.mark-filled {
+    position: absolute;
+    bottom: 2rem;
+    left: 16.6875rem;
+    z-index: 3;
+}
+
+.mark-stroke {
+    position: absolute;
+    bottom: 2rem;
+    left: 16.6875rem;
+    z-index: 4;
 }
