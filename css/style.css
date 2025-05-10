@@ -1157,3 +1157,53 @@
     width: 71px;
     height: 71px;
 }
+
+.custom-form {
+    position: relative;
+    display: flex;
+    top: 5px;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.custom-form input,
+.custom-form textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #6C00D9;
+    /* Purple line */
+    padding: 0.5rem 0;
+    color: #fff;
+    font-size: 1.1rem;
+    outline: none;
+}
+
+.custom-form input::placeholder,
+.custom-form textarea::placeholder {
+    color: #aaa;
+    font-weight: 600;
+}
+
+.custom-form textarea {
+    resize: none;
+    min-height: 120px;
+}
+
+.custom-form button {
+    background-color: #6C00D9;
+    /* Purple */
+    color: white;
+    border: none;
+    padding: 0.9rem 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 999px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.3s;
+}
+
+.custom-form button:hover {
+    background-color: #5900b3;
+}
