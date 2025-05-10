@@ -1057,6 +1057,7 @@
     text-align: center;
     font-size: 4.125rem;
     letter-spacing: 0.4rem;
+    font-weight: 700;
 }
 
 .boxes {
@@ -1070,7 +1071,9 @@
 .left-box {
     width: 415px;
     height: 580px;
-    background-color: #989898;
+    background-color: #5958582e;
+    position: relative;
+    z-index: 3;
     border-radius: 40px;
     backdrop-filter: blur(63px);
 }
@@ -1078,7 +1081,57 @@
 .right-box {
     width: 415px;
     height: 580px;
-    background-color: #989898;
+    background-color: #5958582e;
+    position: relative;
+    z-index: 3;
     border-radius: 40px;
     backdrop-filter: blur(63px);
+}
+
+.contact-mail-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 38px;
+    left: 38px;
+    gap: 20px;
+}
+
+.contact-mail-box span {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact-insta-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 104px;
+    left: 29px;
+    gap: 20px;
+}
+
+.contact-insta-box span {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contact-call-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 196px;
+    left: 33px;
+    gap: 20px;
+}
+
+.contact-call-box span {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
 }

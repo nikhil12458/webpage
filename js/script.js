@@ -132,6 +132,15 @@ function scrollToAbout(){
   });
 }
 
+function scrollToContact(){
+  var contactBtn = document.getElementById("contactBtn");
+  var contactPage = document.getElementById("contactPage");
+
+  contactBtn.addEventListener("click", () => {
+    contactPage.scrollIntoView({ behavior: "smooth" });
+  });
+}
+
 function loadImages(type) {
   const portfolioGrid = document.getElementById("portfolioGrid");
   portfolioGrid.innerHTML = ""; // Clear existing cards
@@ -193,7 +202,7 @@ function loadImages(type) {
 }
 
 // Optionally load logos by default
-window.onload = () => loadImages('logos');
+// window.onload = () => loadImages('logos');
 
 
 document.querySelectorAll('.portfolio-nav li').forEach((item) => {
@@ -313,7 +322,7 @@ function loadReviews() {
 // Optional: Call it on page load
 // window.onload = loadReviews;
 
-
+loadImages('logos');
 loadReviews();
 scrollToReviewPage();
 cursorEffect();
@@ -321,3 +330,4 @@ scrollToHomePage();
 scrollToHomeLogo();
 scrollToAbout();
 scrollToPortfolioPage();
+scrollToContact();
