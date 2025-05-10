@@ -1148,11 +1148,12 @@
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
     gap: 12px;
 }
 
-.social-media-container-box div{
+.social-media-container-box div {
     width: 71px;
-    height: auto;
+    height: 71px;
 }

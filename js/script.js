@@ -48,6 +48,34 @@ window.onload = function () {
       <img src="../svg/instagram.svg" alt="instagram">
     </a>
   `
+
+
+  document.getElementById("social-media-whatsapp").innerHTML = `
+      <a href="${waLink}" target="_blank">
+        <img src="../svg/social-media-WhatsApp.svg" alt="whatsapp" >
+      </a>
+    `;
+
+
+  document.getElementById("social-media-instagram").innerHTML = `
+    <a href="${instagramID}" target="_blank">
+      <img src="../svg/social-media-Instagram-Circle.svg" alt="instagram">
+    </a>
+  `
+
+
+  document.getElementById("social-media-linkedin").innerHTML = `
+    <a href="${linkedinProfile}" target="_blank">
+      <img src="../svg/social-media-LinkedIn.svg" alt="linkedin">
+    </a>
+  `
+
+
+  document.getElementById("social-media-x").innerHTML = `
+    <a href="${xProfile}" target="_blank">
+      <img src="../svg/social-media-X.svg" alt="X">
+    </a>
+  `
 };
 
 
@@ -123,7 +151,7 @@ function scrollToReviewPage() {
   });
 }
 
-function scrollToAbout(){
+function scrollToAbout() {
   var aboutBtn = document.getElementById("aboutBtn");
   var aboutPage = document.getElementById("aboutPage");
 
@@ -132,7 +160,7 @@ function scrollToAbout(){
   });
 }
 
-function scrollToContact(){
+function scrollToContact() {
   var contactBtn = document.getElementById("contactBtn");
   var contactPage = document.getElementById("contactPage");
 
